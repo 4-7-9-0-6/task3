@@ -1,0 +1,67 @@
+1. For the given JSON iterate over all for loops (for, for in)
+
+var employee=[{"Name":"sid",
+         "age":"23",
+         "email":"sid@gmail.com",
+         "salary":"20k"},
+         
+         {"Name":"aravind",
+         "age":"21",
+         "email":"aravind@gmail.com",
+         "salary":"22k"},
+         
+         {"Name":"naren",
+         "age":"22",
+         "email":"naren@gmail.com",
+         "salary":"20k"}];
+
+
+//for loop   
+for(i=0;i<employee.length;i++){
+   console.log(employee[i]);          
+} ;
+console.log("...............");
+//for in loop
+
+for( const x in employee){
+    console.log(employee[x]);
+} ;       
+console.log("..............");
+
+
+2.Create your own resume data in JSON format
+var My_Resume=[{
+
+"Objective":"_",
+
+"Basic_Details":{
+
+"Name":"Siddharthan",
+
+"Mobile No.":"900******9",
+
+"Email":"sid@gmail.com",
+
+"Place":"pondicherry"
+
+},
+
+"Educational_Details": {
+
+"Graduation":{
+
+"Degree":"B.Tech",
+
+"Branch":"ECE",
+
+"College":"CCET",
+
+"Location":"pondicherry",
+
+"State":"pondicherry"
+},
+}
+
+}];
+
+console.log(My_Resume[0]);
